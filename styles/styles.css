@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Keania+One&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient( #FFFFFF 15%, #B28E6C 100%);
+    
+   
+    
+    
+}
+
+header {
+
+    background-color: #B28E6C;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+nav {
+
+    display: flex;
+    gap: 4rem;
+}
+
+nav a {
+
+    font-family: 'Cinzel';
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    
+
+}
+
+a:hover {
+
+    transform: scale(1.1);
+}
+
+h1 {
+
+    font-family: 'Cinzel';
+    font-size: 2.5em;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+
+    transform: scale(1.1);
+}
+
+p {
+
+    text-align: center;
+    font-family: 'lora';
+
+}
+
+.img__logo {
+
+    width: auto;
+}
+
+section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6rem;
+
+}
+
+
+.servicos {
+
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.imagem__servicos {
+
+    height: 150px;
+    border-radius: 80%;
+    transition: transform 0.3s ease;
+}
+
+.imagem__servicos:hover {
+
+    transform: scale(1.1);
+}
+
+.banner {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner img {
+
+    width: auto;
+    
+}
+
+
+@media (max-width: 920px) {
+
+    section {
+
+        display: block;
+        text-align: center;
+        margin: 4rem;
+        
+    }
+
+  
+
+    .titulo__principal {
+
+        margin: 2rem;
+    }
+
+    section img {
+
+        width: auto;
+
+    }
+
+    .servicos {
+
+        display: block;
+    }
+
+    .banner img {
+
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+

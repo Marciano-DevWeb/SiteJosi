@@ -11,7 +11,7 @@
 
 body {
 
-    font-family: Arial, sans-serif;
+    
     line-height: 1.6;
     background: linear-gradient( #FFFFFF 15%, #B28E6C 100%);
     
@@ -20,26 +20,19 @@ body {
     
 }
 
-header {
+.logo img {
 
-    background-color: #B28E6C;
-    padding: 2.5rem;
-    display: flex;
-    justify-content: center;
-    
-   
-}
+    height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 
-nav {
+  }
 
-    display: flex;
-    gap: 4rem;
-}
 
 nav a {
 
     font-family: 'Cinzel';
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 400;
     text-decoration: none;
     transition: transform 0.3s ease;
@@ -51,6 +44,8 @@ a:hover {
 
     transform: scale(1.1);
 }
+
+
 
 h1 {
 
@@ -68,13 +63,18 @@ h1:hover {
 p {
 
     text-align: center;
-    font-family: 'lora';
+    font-family: 'Lora';
 
 }
 
 .img__logo {
 
     width: auto;
+}
+
+main {
+
+    margin-top: 10rem;
 }
 
 section {
@@ -116,12 +116,15 @@ section {
 
 .banner img {
 
-    width: auto;
+    width: 1440px;
+    height: 550px;
     
 }
 
 
 @media (max-width: 920px) {
+
+    
 
     section {
 
@@ -131,27 +134,57 @@ section {
         
     }
 
-  
+    .titulo__principal-1 img {
+
+        width: 45%;
+        height: 45%;
+    }
 
     .titulo__principal {
 
-        margin: 2rem;
+        margin: 4rem;
     }
 
-    section img {
+    h1 {
 
-        width: auto;
-
+        font-family: 'Cinzel';
+        font-size: 1.5em;
+        text-align: center;
+        transition: transform 0.3s ease;
     }
+    
+    h1:hover {
+    
+        transform: scale(1.1);
+    }
+
+    .logo img {
+
+        height: 4rem;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    
+      }
 
     .servicos {
 
-        display: block;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .servicos img {
+
+        width: 80%;
+        height: 80%;
     }
 
     .banner img {
 
-        width: 80%;
+        width: 90%;
+        height: 90%;
+        
     }
 
 
